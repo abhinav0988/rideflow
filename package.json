@@ -1,0 +1,14 @@
+{
+  "name": "rideflow",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run dev -w @rideflow/api",
+    "dev:web": "npm run dev -w @rideflow/web",
+    "test": "npm run test -w @rideflow/api",
+    "typecheck": "npm run typecheck -w @rideflow/api && npm run typecheck -w @rideflow/web"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules
+.docker
+dist
+coverage
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+.DS_Store
+apps/web/dist
+packages/shared/dist
+apps/api/dist

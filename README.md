@@ -1,3 +1,4 @@
+[![CI](https://github.com/abhinav0988/rideflow/actions/workflows/ci.yml/badge.svg)](https://github.com/abhinav0988/rideflow/actions/workflows/ci.yml)
 # 🚗 RideFlow – Real-Time Ride Booking Platform
 
 **A production-style backend engineering project demonstrating real-time ride matching, concurrency control, distributed systems, and reliable event-driven architecture.**
